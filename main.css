@@ -1,0 +1,27 @@
+body {
+    margin: 0%;
+}@media(max-width:300px){
+    .d-flex{
+        flex-wrap: wrap;
+        justify-content: center;
+    }#one{
+        margin-top: 10px;
+    }
+}
+.container-fluid{
+    background-color: blue;
+    max-height: 40px;
+}.nav-link.active{
+    background-color: rgb(35, 86, 130);
+    max-width: fit-content;
+    padding: 10px;
+    border: 1px solid;
+    margin: 0.145px;
+}.navbar-toggler{
+    border: 2px solid;
+    padding: 4px !important;
+    
+}.navbar-toggler:focus{
+    box-shadow:none !important;
+    border: none;
+}
